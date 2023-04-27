@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+html, body {
+    margin: 0;
+    background-color: #13293D;
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+#center-div {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    margin-top: 3rem;
+}
+
+#login-box {
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    border: 0.1rem solid #E1DD8F;
+    color: #E1DD8F;
+
+    text-align: center;
+}
+
+#login-table input {
+    outline: none;
+    background-color: #13293D;
+    color: #E1DD8F;
+    border: 0.05rem dashed #E1DD8F;
+    padding: 0.1rem 0rem;
+    text-align: center;
+}
+
+#username-field {
+    margin-left: 1.25rem;
+    width: 10rem;
+}
+
+#password-field {
+    margin-left: 1.25rem;
+    margin-top: 0.2rem;
+    width: 10rem;
+}
+
+#login-box input[type="button"] {
+    margin-top: 0.5rem;
+
+    outline: none;
+    background-color: #13293D;
+    color: #E94F37;
+    border: 0.05rem solid #E94F37;
+    text-align: center;
+
+    transition: color 200ms, border-color 200ms;
+}
